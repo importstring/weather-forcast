@@ -9,14 +9,15 @@ from datetime import datetime
 import json  # Correct import for JSON handling
 
 # Info JSON path
-info_path = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/info.json"
+#info_path = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/info.json"
+info_path = input('input file path for info.json')
 
 # Load JSON data from the file
 with open(info_path, 'r') as file:
     info = json.load(file)  # Use json.load to read from a file
 
-# Assuming UPDATE_INTERVAL is defined elsewhere in your code
-UPDATE_INTERVAL = 1  # Example value, adjust as necessary
+
+UPDATE_INTERVAL = 1  
 
 def verify_logs(logs_path):
     if os.path.exists(logs_path):
