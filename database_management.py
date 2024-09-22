@@ -40,8 +40,9 @@ current_month = datetime.now().month
 current_year = datetime.now().year
 
 # Existing CSV file path
-csv_file_path = f"/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/Data/Toronto Weather Data/{current_year}.csv" # get the path to update the CSV file
-
+#csv_file_path = f"/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/Data/Toronto Weather Data/{current_year}.csv" # get the path to update the CSV file
+# For Github this is
+csv_file_path = f"{current_year}.csv"
 # Fetch the data from the API
 response = requests.get(base_url, params=params)
 if response.status_code == 200:
