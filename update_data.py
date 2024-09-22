@@ -47,29 +47,3 @@ def update_databases(json_dir, log_dir, csv_file_dir):
     pass
     pass
     pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Example usage
-csv_path = "/path/to/your/file.csv"
-last_date = get_last_updated_date(csv_path)
-if last_date:
-    print("Last updated date:", last_date.strftime('%Y-%m-%d'))
-else:
-    print("No valid dates found in the CSV.")
