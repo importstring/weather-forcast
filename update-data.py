@@ -8,7 +8,8 @@ import requests
 
 # Constants
 API_BASE_URL = "https://api.weather.gc.ca/collections/climate-daily/items"
-CSV_FILENAME = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Script/Data Management/toronto_weather_2024.csv"
+#CSV_FILENAME = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Script/Data Management/toronto_weather_2024.csv"
+input('Replcae this with csv path')
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
