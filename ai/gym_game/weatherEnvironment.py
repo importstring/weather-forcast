@@ -6,7 +6,8 @@ from datetime import datetime, timedelta
 import os
 
 # Info JSON path
-info_path = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/info.json"
+#info_path = "/Users/simon/Desktop/Areas/TKS/Focus 1 - RL/IRL-RL Application/Databases/info.json"
+raise "Github code not ready"
 
 class WeatherEnv(gym.Env):
     def __init__(self):
