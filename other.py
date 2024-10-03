@@ -101,7 +101,7 @@ if __name__ == "__main__":
 def get_new_data_sync(day):
     return asyncio.run(get_new_data(day))
 
-# Now you can use it like this:
-day = datetime(2023, 1, 1)
+
+day = datetime(2023, 1, 1) #example value
 data = get_new_data_sync(day)
 print(data)
